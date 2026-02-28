@@ -1,0 +1,51 @@
+<header>
+
+<div class="logo-container">
+  <img src="images/univent-logo.png" alt="Univent Logo">
+</div>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Events</a>
+  <a href="location.html">Locations</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="auth-buttons">
+  <a href="premium.html">Sign Up</a>
+  <a href="premium.html">Log In</a>
+</div>
+
+</header>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body onload="loadReservation()">
+
+<div class="container">
+  <div class="card">
+    <h2>Complete Your Reservation</h2>
+
+    <p><strong>Event:</strong> <span id="resEvent"></span></p>
+    <p><strong>Date:</strong> <span id="resDate"></span></p>
+    <p><strong>Location:</strong> <span id="resLocation"></span></p>
+    <p><strong>Availability:</strong> <span id="resSeats"></span></p>
+
+    <hr>
+
+    <label>Full Name</label>
+    <input type="text" id="name">
+
+    <label>Email</label>
+    <input type="email" id="email">
+
+    <button onclick="submitReservation()">Confirm Reservation</button>
+  </div>
+</div>
+
+</body>
+</html>

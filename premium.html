@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plans</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+
+<div class="logo-container">
+  <img src="images/univent-logo.png" alt="Univent Logo">
+</div>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Events</a>
+  <a href="location.html">Locations</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="auth-buttons">
+  <a href="premium.html">Sign Up</a>
+  <a href="premium.html">Log In</a>
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Create Account</h2>
+<input type="text" id="planName" placeholder="Full Name">
+<input type="email" id="planEmail" placeholder="Email">
+</div>
+
+<div class="card" id="basicCard">
+<h2>Basic Plan (Free)</h2>
+<p>✔ Access public events</p>
+<p>✔ Standard booking</p>
+<p>✔ Email confirmation</p>
+<button onclick="choosePlan('Basic')">Join Basic</button>
+</div>
+
+<div class="card" id="premiumCard">
+<h2>Premium Plan (14-Day Free Trial)</h2>
+<p>✔ Priority booking</p>
+<p>✔ VIP access</p>
+<p>✔ Early seat reservation</p>
+<p>✔ Exclusive workshops</p>
+<button onclick="choosePlan('Premium')">Join Premium</button>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Univent</p>
+</footer>
+
+</body>
+</html>
